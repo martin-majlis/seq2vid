@@ -1,9 +1,21 @@
-# Notes
+# Seq2Vid
+
+Seq2Vid is tool for visualizing sequence of integers.
+
+## Example
+
+	# Input file where each line contains single number
+	seq 1 10000 | sort -R | head -n 5000 | sort -n > inp.txt
+	# Generate video
+	python seq2vid.py --inp inp.txt --out out --min 1 --max 10000 --footer 'seq2vid' --header 'seq2vid - demo'
+
 
 ## Youtube
 * Youtube requires 16:9 ratio.
 * [Recommended resolution & aspect ratios](https://support.google.com/youtube/answer/6375112)
 * [Recommended upload encoding settings](https://support.google.com/youtube/answer/1722171?hl=en)
+
+
 
 
 ## Generating Videos
