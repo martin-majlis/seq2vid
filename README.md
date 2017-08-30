@@ -9,6 +9,9 @@ Seq2Vid is tool for visualizing sequence of integers.
 	# Generate video
 	python seq2vid.py --inp inp.txt --out out --min 1 --max 10000 --footer 'seq2vid' --header 'seq2vid - demo'
 
+## Generated Examples
+* [Additive primes to 1 million](https://www.youtube.com/watch?v=FEfsWoZ-IIg&list=PLvlPjV-jeW4B-KJM-sMGylCFWOh_9EA1T)
+
 
 ## Youtube
 * Youtube requires 16:9 ratio.
